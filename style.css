@@ -1,8 +1,11 @@
 :root {
 	--BG: #181818;
-	--FG:ghostwhite ;
-	--Corner_Rad: 8rem;
+	--BG_DARK: #080808;
+	--FG:#FFEEBB;
+	
 	--linkColor: #00D0FF;
+	
+	--Corner_Rad: 8rem;
 }
 
 @font-face {
@@ -22,10 +25,28 @@ a {
 	text-decoration: none;
 }
 
+footer {
+	
+	position: fixed;
+	left: 20%;
+	
+	bottom: .5rem; 
+	padding: .2rem;
+	
+	width: 60%;
+	border-radius: 2rem;
+
+	text-align: center;
+	font-size: .8rem;
+	
+	color: var(--FG);  
+	background-color: #080808;  
+}
+
 
 .heading {
-	margin-top: 10%;
-	margin-left: 30%;
+	margin-top: 10rem;
+	margin-left: 20%;
 
 	/* text-align: center; */
 
@@ -36,7 +57,7 @@ a {
 .uc {
 
 	margin-top: 2%;
-	margin-left: 30%;
+	margin-left: 20%;
 	padding-left: 2%;
 
 	border-bottom-left-radius: var(--Corner_Rad);
@@ -45,13 +66,6 @@ a {
 	color: var(--BG);
 	font-size: 15rem;
 	font-weight:700;
-}
 
-.footer {
-
-	font-size: .8rem;
-	color: var(--FG);
-	margin-top: 12%;
-	margin-left: 2%;
-	background-color: #171717;
+	box-shadow: -1rem 1rem .6rem var(--BG_DARK);
 }
