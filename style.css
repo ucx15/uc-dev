@@ -1,0 +1,57 @@
+:root {
+	--BG: #181818;
+	--FG:ghostwhite ;
+	--Corner_Rad: 8rem;
+	--linkColor: #00D0FF;
+}
+
+@font-face {
+	font-family: Cascadia;
+	src: url('Res/Cascadia Code.ttf');
+}
+
+body {
+	font-family: Cascadia;
+	margin: 0;
+	padding: 0;
+	background-color: var(--BG);
+}
+
+a {
+	color: var(--linkColor);
+	text-decoration: none;
+}
+
+
+.heading {
+	margin-top: 10%;
+	margin-left: 30%;
+
+	/* text-align: center; */
+
+	color: var(--FG);
+	font-size: 2rem;
+}
+
+.uc {
+
+	margin-top: 2%;
+	margin-left: 30%;
+	padding-left: 2%;
+
+	border-bottom-left-radius: var(--Corner_Rad);
+
+	background-color: var(--FG);
+	color: var(--BG);
+	font-size: 15rem;
+	font-weight:700;
+}
+
+.footer {
+
+	font-size: .8rem;
+	color: var(--FG);
+	margin-top: 12%;
+	margin-left: 2%;
+	background-color: #171717;
+}
